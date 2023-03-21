@@ -1,50 +1,6 @@
 $(document).ready(function(){
   'use strict';
 
-  //===== Header Search =====//
-  $('.srch-btn').on('click', function () {
-    $('.header-search').addClass('active');
-    return false;
-  });
-  $('.srch-cls-btn').on('click', function () {
-    $('.header-search').removeClass('active');
-    return false;
-  });
-
-  //===== Side Panel =====//
-  $(".sidepanel > span").on('click', function () {
-    $(".sidepanel").toggleClass("show");
-    $(this).toggleClass('spin');
-    return false;
-  });
-
-  //===== Color Picker =====*/
-  $('.color-picker a').on("click", function () {
-    $('.color-picker a').removeClass("applied");
-    $(this).addClass("applied");
-    return false;
-  });
-  
-
-  //===== Accordians =====//
-  $('#toggle .toggle-content').hide();
-  $('#toggle h6:first').addClass('active').next().slideDown(500).parent().addClass('activate');
-  $('#toggle h6').on('click', function() {
-    if ($(this).next().is(':hidden')) {
-      $('#toggle h6').removeClass('active').next().slideUp(500).parent().removeClass('activate');
-      $(this).toggleClass('active').next().slideDown(500).parent().toggleClass('activate');
-    }
-  });
-
-  //===== Accordians =====//
-  $('#toggle2 .toggle-content').hide();
-  $('#toggle2 h6:last').addClass('active').next().slideDown(500).parent().addClass('activate');
-  $('#toggle2 h6').on('click', function() {
-    if ($(this).next().is(':hidden')) {
-      $('#toggle2 h6').removeClass('active').next().slideUp(500).parent().removeClass('activate');
-      $(this).toggleClass('active').next().slideDown(500).parent().toggleClass('activate');
-    }
-  });
 
   //===== Responsive Header =====//
   $('.rspn-mnu-btn').on('click', function () {
@@ -55,13 +11,13 @@ $(document).ready(function(){
     $('.rsnp-mnu').removeClass('slidein');
     return false;
   });
-  $('.rsnp-mnu li.menu-item-has-children > a').on('click', function () {
-    $(this).parent().siblings().children('ul').slideUp();
-    $(this).parent().siblings().removeClass('active');
-    $(this).parent().children('ul').slideToggle();
-    $(this).parent().toggleClass('active');
+  $('.rspn-item').on('click', function () {
+    var url = $(this).attr('href');
+    window.location.href = url;
+    $('.rsnp-mnu').removeClass('slidein');
     return false;
   });
+
 
   //===== Scrollbar =====//
   if ($('.rsnp-mnu').length > 0) {
