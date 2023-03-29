@@ -1803,7 +1803,7 @@ hr {
 }
 header.header2, header{
 	border:none;
-	background-color: rgba(0, 0, 0, 0.45);
+	background-color: rgba(0, 0, 0, 0.708);
 }
 header.header2 .tb-br{
 	display:none;
@@ -1880,6 +1880,7 @@ footer .gap {
 .featured-cap > h2 {
   margin-bottom: 0;
   color: #fff;
+  text-shadow: 1px 1px #4a4a4a;
   font-size: 58px;
   font-weight: 700;
   line-height: 70px;
@@ -1888,6 +1889,7 @@ footer .gap {
 .featured-cap > p {
     margin-bottom: 5px;
     color: #dbdbdb;
+    text-shadow: 1px 1px #4a4a4a;
     font-size: 25px;
     line-height: 36px;
     font-weight: 500;
