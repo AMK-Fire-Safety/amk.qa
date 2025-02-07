@@ -27,7 +27,7 @@ export default defineStackbitConfig({
       .filter((d) => pageModels.some((m) => m.name === d.modelName))
       .map((document) => ({
         stableId: document.id,
-        urlPath: `/${document.modelName.toLowerCase()}/${document.id}`,
+        urlPath: `/{slug}`,
         document,
         // Mark the page with slug "home" as the homepage
         isHomePage: document.modelName === "Page" && document.slug === "home",
