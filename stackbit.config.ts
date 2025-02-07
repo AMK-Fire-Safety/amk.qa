@@ -1,7 +1,8 @@
-import { defineStackbitConfig, SiteMapEntry } from "@stackbit/types";
+import { defineStackbitConfig } from "@stackbit/types";
 import { GitContentSource } from "@stackbit/cms-git";
 
 export default defineStackbitConfig({
+  stackbitVersion: "~0.6.0",
   contentSources: [
     new GitContentSource({
       rootPath: __dirname,
@@ -9,28 +10,28 @@ export default defineStackbitConfig({
       models: [
         {
           name: "Page",
-          type: "page",              // Mark this model as a page
-          urlPath: "/{slug}",        // URL structure for the page
-          filePath: "content/pages/{slug}.json", // Where page content is stored
+          type: "page",
+          urlPath: "/{slug}",
+          filePath: "content/pages/{slug}.json",
           fields: [
-            { name: "title", type: "string", required: true },
-            { name: "body", type: "markdown" }
+            { 
+              name: "title", 
+              type: "string", 
+              required: true 
+            },
+            { 
+              name: "slug", 
+              type: "string", 
+              required: true 
+            },
+            { 
+              name: "body", 
+              type: "markdown",
+              required: true 
+            }
           ]
         }
       ]
     })
-  ],
-  siteMap: ({ documents, models }) => {
-    // Filter out the page models (in case you add more later)
-    const pageModels = models.filter((m) => m.type === "page");
-    return documents
-      .filter((d) => pageModels.some((m) => m.name === d.modelName))
-      .map((document) => ({
-        stableId: document.id,
-        urlPath: `/{slug}`,
-        document,
-        // Mark the page with slug "home" as the homepage
-        isHomePage: document.modelName === "Page" && document.slug === "home",
-      })) as SiteMapEntry[];
-  }
+  ]
 });
