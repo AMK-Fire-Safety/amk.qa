@@ -2,6 +2,21 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Fire Protection Services in Qatar | Fire Alarm & Suppression Systems',
+  description: 'Professional fire protection services in Doha, Qatar. Fire alarm installation, fire suppression systems, fire fighting equipment, emergency services, and maintenance. Available 24/7 across Qatar.',
+  keywords: ['fire protection services Qatar', 'fire alarm installation Doha', 'fire suppression system Qatar', 'fire fighting services Doha', 'emergency fire services Qatar', 'fire system maintenance Qatar'],
+  openGraph: {
+    title: 'Fire Protection Services in Qatar | AMK Safety',
+    description: 'Professional fire protection services in Doha, Qatar. Fire alarm installation, fire suppression systems, and 24/7 emergency services.',
+    url: 'https://amk.qa/services',
+  },
+  alternates: {
+    canonical: 'https://amk.qa/services',
+  },
+};
 
 const services = [
   {

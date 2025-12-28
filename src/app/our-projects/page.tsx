@@ -1,5 +1,20 @@
 import { Card } from "@/components/ui/card";
 import Image from "next/image";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Fire Protection Projects in Qatar | AMK Safety Portfolio',
+  description: 'View our completed fire protection projects across Qatar. Industrial, commercial, and residential fire alarm and suppression system installations in Doha and throughout Qatar.',
+  keywords: ['fire protection projects Qatar', 'fire system installation Doha', 'fire alarm projects Qatar', 'commercial fire protection Qatar', 'industrial fire safety Qatar'],
+  openGraph: {
+    title: 'Fire Protection Projects in Qatar | AMK Safety',
+    description: 'Explore our portfolio of successful fire protection projects across Qatar.',
+    url: 'https://amk.qa/our-projects',
+  },
+  alternates: {
+    canonical: 'https://amk.qa/our-projects',
+  },
+};
 
 const projects = [
   {

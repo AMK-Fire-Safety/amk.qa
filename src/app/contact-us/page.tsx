@@ -1,4 +1,19 @@
 import { MapPin, Phone, Mail } from "lucide-react";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Contact AMK Safety Qatar | Fire Protection Services Doha',
+  description: 'Contact AMK Safety & Security Services in Doha, Qatar. Get expert fire protection solutions, emergency services, and consultations. Located in Zone 51, Doha. Call +974-7043-4631 or email info@amk.qa',
+  keywords: ['contact fire protection Qatar', 'fire safety services Doha contact', 'AMK Safety contact', 'fire alarm service Qatar contact', 'emergency fire service Doha'],
+  openGraph: {
+    title: 'Contact AMK Safety Qatar | Fire Protection Services',
+    description: 'Get in touch with Qatar\'s leading fire protection company. Emergency services available 24/7.',
+    url: 'https://amk.qa/contact-us',
+  },
+  alternates: {
+    canonical: 'https://amk.qa/contact-us',
+  },
+};
 
 export default function ContactUsPage() {
 
