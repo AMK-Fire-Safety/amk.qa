@@ -1,0 +1,238 @@
+{
+  "placeholderImages": [
+    {
+      "id": "carousel-1",
+      "description": "AMK Safety & Security Carousel Image 1",
+      "imageUrl": "/c_1.jpg",
+      "imageHint": "carousel image 1"
+    },
+    {
+      "id": "carousel-2",
+      "description": "AMK Safety & Security Carousel Image 2",
+      "imageUrl": "/c_2.jpg",
+      "imageHint": "carousel image 2"
+    },
+    {
+      "id": "carousel-3",
+      "description": "AMK Safety & Security Carousel Image 3",
+      "imageUrl": "/c_3.jpg",
+      "imageHint": "carousel image 3"
+    },
+    {
+      "id": "carousel-4",
+      "description": "AMK Safety & Security Carousel Image 4",
+      "imageUrl": "/c_4.jpg",
+      "imageHint": "carousel image 4"
+    },
+    {
+      "id": "service-1",
+      "description": "CCTV camera installation",
+      "imageUrl": "https://images.unsplash.com/photo-1566060475410-1159300f046f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxDQ1RWJTIwY2FtZXJhfGVufDB8fHx8MTc2MzQyMjI0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "CCTV camera"
+    },
+    {
+      "id": "service-2",
+      "description": "Access control system",
+      "imageUrl": "https://images.unsplash.com/photo-1667453466805-75bbf36e8707?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhY2Nlc3MlMjBjb250cm9sfGVufDB8fHx8MTc2MzM3NjU0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "access control"
+    },
+    {
+      "id": "service-3",
+      "description": "Security guard on patrol",
+      "imageUrl": "https://images.unsplash.com/photo-1541214184964-d90ddf59c88b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzZWN1cml0eSUyMGd1YXJkfGVufDB8fHx8MTc2MzQ1MjIwOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "security guard"
+    },
+    {
+      "id": "service-4",
+      "description": "Fire alarm system check",
+      "imageUrl": "https://images.unsplash.com/photo-1585367437379-e0b71bb18156?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmaXJlJTIwYWxhcm18ZW58MHx8fHwxNzYzNDUyMjEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fire alarm"
+    },
+    {
+      "id": "service-5",
+      "description": "Intrusion detection system",
+      "imageUrl": "https://images.unsplash.com/photo-1521386455230-4ceaa25b72be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhbGFybSUyMHN5c3RlbXxlbnwwfHx8fDE3NjM0MTU3MzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "alarm system"
+    },
+    {
+      "id": "service-6",
+      "description": "24/7 monitoring center",
+      "imageUrl": "https://images.unsplash.com/photo-1760289028671-a31aa6da7ae7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtb25pdG9yaW5nJTIwY2VudGVyfGVufDB8fHx8MTc2MzQ1MjIwOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "monitoring center"
+    },
+    {
+      "id": "service-7",
+      "description": "Risk assessment consultation",
+      "imageUrl": "https://images.unsplash.com/photo-1507537362848-9c7e70b7b5c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb25zdWx0YXRpb24lMjBtZWV0aW5nfGVufDB8fHx8MTc2MzQ0OTI5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "consultation meeting"
+    },
+    {
+      "id": "service-8",
+      "description": "Emergency response team",
+      "imageUrl": "https://images.unsplash.com/photo-1625258110620-b213f56b9267?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxlbWVyZ2VuY3klMjByZXNwb25zZXxlbnwwfHx8fDE3NjM0NTIyMDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "emergency response"
+    },
+    {
+      "id": "product-1",
+      "description": "High-definition security camera",
+      "imageUrl": "https://images.unsplash.com/photo-1585206031650-9e9a7c87dcfe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzZWN1cml0eSUyMGNhbWVyYXxlbnwwfHx8fDE3NjMzNzQ3MjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "security camera"
+    },
+    {
+      "id": "product-2",
+      "description": "Biometric fingerprint scanner",
+      "imageUrl": "https://images.unsplash.com/photo-1698281958513-2e09090da395?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxmaW5nZXJwcmludCUyMHNjYW5uZXJ8ZW58MHx8fHwxNzYzNDUyMjA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fingerprint scanner"
+    },
+    {
+      "id": "product-3",
+      "description": "Smart fire extinguisher",
+      "imageUrl": "https://images.unsplash.com/photo-1575867094741-beeb9b072b83?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmaXJlJTIwZXh0aW5ndWlzaGVyfGVufDB8fHx8MTc2MzM4ODIzNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fire extinguisher"
+    },
+    {
+      "id": "product-4",
+      "description": "Video intercom system",
+      "imageUrl": "https://images.unsplash.com/photo-1543910556-bb42a926e975?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx2aWRlbyUyMGludGVyY29tfGVufDB8fHx8MTc2MzM5NzgwMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "video intercom"
+    },
+    {
+      "id": "product-5",
+      "description": "Network video recorder (NVR)",
+      "imageUrl": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzZXJ2ZXIlMjByYWNrfGVufDB8fHx8MTc2MzM3MDgyOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "server rack"
+    },
+    {
+      "id": "product-6",
+      "description": "Magnetic door lock",
+      "imageUrl": "https://images.unsplash.com/flagged/photo-1564767609342-620cb19b2357?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkb29yJTIwbG9ja3xlbnwwfHx8fDE3NjMzNjMxNzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "door lock"
+    },
+    {
+      "id": "product-7",
+      "description": "Smoke detector",
+      "imageUrl": "https://images.unsplash.com/photo-1667188721616-cb400493fd14?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzbW9rZSUyMGRldGVjdG9yfGVufDB8fHx8MTc2MzQ1MjIwOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "smoke detector"
+    },
+    {
+      "id": "product-8",
+      "description": "Panic button",
+      "imageUrl": "https://images.unsplash.com/photo-1562151612-4919f18648df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxlbWVyZ2VuY3klMjBidXR0b258ZW58MHx8fHwxNzYzNDM3NDk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "emergency button"
+    },
+    {
+      "id": "project-1",
+      "description": "Corporate office security system",
+      "imageUrl": "https://images.unsplash.com/photo-1560179707-f14e90ef3623?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxvZmZpY2UlMjBidWlsZGluZ3xlbnwwfHx8fDE3NjMzNjM2MDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "office building"
+    },
+    {
+      "id": "project-2",
+      "description": "Retail store surveillance",
+      "imageUrl": "https://images.unsplash.com/photo-1481437156560-3205f6a55735?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxyZXRhaWwlMjBzdG9yZXxlbnwwfHx8fDE3NjM0NTExNDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "retail store"
+    },
+    {
+      "id": "project-3",
+      "description": "Industrial warehouse fire safety",
+      "imageUrl": "https://images.unsplash.com/photo-1644079446600-219068676743?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d2FyZWhvdXNlJTIwaW50ZXJpb3J8ZW58MHx8fHwxNzYzNDA5NzExfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "warehouse interior"
+    },
+    {
+      "id": "project-4",
+      "description": "Residential complex access control",
+      "imageUrl": "https://images.unsplash.com/photo-1663293761188-eb1dde142bd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhcGFydG1lbnQlMjBjb21wbGV4fGVufDB8fHx8MTc2MzQ1MjIwOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "apartment complex"
+    },
+    {
+      "id": "project-5",
+      "description": "School campus security upgrade",
+      "imageUrl": "https://images.unsplash.com/photo-1726390415698-3c60d6b16c02?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c2Nob29sJTIwY2FtcHVzfGVufDB8fHx8MTc2MzM5Njc1Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "school campus"
+    },
+    {
+      "id": "project-6",
+      "description": "Hospital security and monitoring",
+      "imageUrl": "https://images.unsplash.com/photo-1596541223130-5d31a73fb6c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxob3NwaXRhbCUyMGJ1aWxkaW5nfGVufDB8fHx8MTc2MzQ1MjIwOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hospital building"
+    },
+    {
+      "id": "brand-1",
+      "description": "Brand Logo 1",
+      "imageUrl": "https://images.unsplash.com/photo-1562705121-e624542c7b9b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y29tcGFueSUyMGxvZ298ZW58MHx8fHwxNzYzMzU1NjQ5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "brand-2",
+      "description": "Brand Logo 2",
+      "imageUrl": "https://images.unsplash.com/photo-1605898643907-844c2bfc764e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWNoJTIwbG9nb3xlbnwwfHx8fDE3NjMzMzI4ODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tech logo"
+    },
+    {
+      "id": "brand-3",
+      "description": "Brand Logo 3",
+      "imageUrl": "https://images.unsplash.com/photo-1612810806563-4cb8265db55f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YnJhbmQlMjBsb2dvfGVufDB8fHx8MTc2MzQxMzU0NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "brand logo"
+    },
+    {
+      "id": "brand-4",
+      "description": "Brand Logo 4",
+      "imageUrl": "https://images.unsplash.com/photo-1754837369018-ff35655d126f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhYnN0cmFjdCUyMGxvZ298ZW58MHx8fHwxNzYzMzcwODA0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract logo"
+    },
+    {
+      "id": "brand-5",
+      "description": "Brand Logo 5",
+      "imageUrl": "https://images.unsplash.com/photo-1662052955098-042b46e60c2b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxidXNpbmVzcyUyMGxvZ298ZW58MHx8fHwxNzYzMzY0MDgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "business logo"
+    },
+    {
+      "id": "brand-6",
+      "description": "Brand Logo 6",
+      "imageUrl": "https://images.unsplash.com/photo-1690964099583-adc1e6f06dd1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx0ZWNoJTIwYnJhbmR8ZW58MHx8fHwxNzYzNDUyMjEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tech brand"
+    },
+    {
+      "id": "brand-7",
+      "description": "Brand Logo 7",
+      "imageUrl": "https://images.unsplash.com/photo-1633533452148-a9657d2c9a5f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb21wYW55JTIwaWRlbnRpdHl8ZW58MHx8fHwxNzYzNDUyMjA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "company identity"
+    },
+    {
+      "id": "brand-8",
+      "description": "Brand Logo 8",
+      "imageUrl": "https://images.unsplash.com/photo-1700887938966-01f0450aee8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb3Jwb3JhdGUlMjBsb2dvfGVufDB8fHx8MTc2MzQxNzM4NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "corporate logo"
+    },
+    {
+      "id": "brand-9",
+      "description": "Brand Logo 9",
+      "imageUrl": "https://images.unsplash.com/photo-1626251851903-1143b5c6f057?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxsb2dvJTIwZGVzaWdufGVufDB8fHx8MTc2MzM1NzE3M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "logo design"
+    },
+    {
+      "id": "brand-10",
+      "description": "Brand Logo 10",
+      "imageUrl": "https://images.unsplash.com/photo-1746608942838-a484d55ffeda?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxsb2dvJTIwbWFya3xlbnwwfHx8fDE3NjM0NTIyMTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "logo mark"
+    },
+    {
+      "id": "brand-11",
+      "description": "Brand Logo 11",
+      "imageUrl": "https://images.unsplash.com/photo-1708272945264-ac3b62e09dcf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzaW1wbGUlMjBsb2dvfGVufDB8fHx8MTc2MzQwOTc5M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "simple logo"
+    },
+    {
+      "id": "brand-12",
+      "description": "Brand Logo 12",
+      "imageUrl": "https://images.unsplash.com/photo-1588942458058-55beb017132c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxsb2dvJTIwZ3JhcGhpY3xlbnwwfHx8fDE3NjM0NTIyMTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "logo graphic"
+    },
+    {
+      "id": "about-us-1",
+      "description": "Our team in a meeting",
+      "imageUrl": "https://images.unsplash.com/photo-1590650046871-92c887180603?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8dGVhbSUyMG1lZXRpbmd8ZW58MHx8fHwxNzYzNDIzMjMzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "team meeting"
+    }
+  ]
+}
